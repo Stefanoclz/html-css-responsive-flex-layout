@@ -164,3 +164,66 @@ header {
     margin: 20px 0px;
     color: blue;
 }
+ 
+/* / Prima parte */
+
+/* Inizio seconda parte */
+
+.plan {
+    background-color: #9692e6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.strategic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+
+.stratPlan, .plan h5 {
+    color: white;
+    margin: 10px;
+}
+
+.stratPlan p {
+    margin: 10px 0px;
+    line-height: 25px;
+}
+
+.stratImg img {
+    width: 90%;
+}
+
+.appDev {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.appDev img {
+    width: 60%;
+}
+
+.appDev h3, .appDev p {
+    margin: 10px;
+}
+
+.appDev i {
+    background-color: lightblue;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+/* Inizio Terza presentazione  */
