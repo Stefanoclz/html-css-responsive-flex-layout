@@ -351,3 +351,48 @@ header {
     margin: 10px 0px;
     margin-right: 130px;
 }
+
+/* Inizio Sesta parte call to action */
+
+.getStart {
+    background-color: #9692e6;
+    text-align: center;
+}
+
+.getStart h3 {
+    color: grey;
+    font-size: 15px;
+    margin: 20px 0px
+}
+
+.getStart h2 {
+    font-size: 30px;
+    color: white;
+}
+
+.getStart h1 {
+    font-size: 50px;
+    color: #ffc25d;
+    margin: 10px 0px;
+}
+
+.getStart p {
+    color: white;
+    margin: 20px 0px;
+}
+
+.getStart a {
+    color: white;
+    text-decoration: underline;
+}
+
+.startBtn a {
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    color: black;
+}
+
+.getStart .container {
+    margin-bottom: 0px;
+}
