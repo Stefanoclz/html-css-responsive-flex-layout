@@ -174,7 +174,6 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
     width: 100%;
 }
 
@@ -227,3 +226,128 @@ header {
 }
 
 /* Inizio Terza presentazione  */
+
+.cit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+
+.cit h2 {
+    margin: 20px;
+    color: blueviolet
+} 
+
+.cit p {
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.primo {
+    background-color: #ffbfbf;
+}
+
+.secondo {
+    background-color: #feddaa;
+}
+
+.terzo {
+    background-color: #b2e9ca;
+}
+
+.cit img {
+    width: 50%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Inizio quarta parte */
+
+.benefits {
+    background-color: #9692e6;
+    color: white;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.benefList {
+    padding: 10px;
+    background-color: white;
+    border-radius: 25px;
+    color: grey;
+    margin-bottom: 30px;
+    text-align: left;
+    padding: 30px 20px;
+}
+
+.benefList h3 {
+    margin: 10px 0px;
+    color: blueviolet;
+}
+
+.benefList p {
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+.benefList a {
+    text-decoration: none;
+    color: white;
+    background-color: #9692e6;
+    padding: 5px 25px;
+    border-radius: 20px;
+}
+
+/* Inizio quinta parte */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.aboutTxt {
+    align-items: center;
+}
+
+.about h1 {
+    color: #9692e6;
+    margin-bottom: 20px;
+}
+
+.about p {
+    margin-bottom: 10px;
+    line-height: 25px;
+    color: grey;
+}
+
+.aboutImg {
+    display: flex;
+    flex-direction: column;
+}
+
+.about img {
+    width: 60%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+.aboutImg h2 {
+    color: #9692e6;
+    margin: 10px 0px;
+}
+
+.aboutImg a {
+    color: white;
+    text-decoration: none;
+    background-color: #9692e6;
+    padding: 5px 15px;
+    margin: 10px 0px;
+    margin-right: 130px;
+}
