@@ -173,19 +173,20 @@ header {
     background-color: #9692e6;
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 100%;
+}
+
+.plan h4 {
+    align-self: flex-start;
 }
 
 .strategic {
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin: auto;
-    text-align: center;
 }
 
-.stratPlan, .plan h5 {
+.stratPlan, .plan h4 {
     color: white;
     margin: 10px;
 }
@@ -195,8 +196,15 @@ header {
     line-height: 25px;
 }
 
+.stratImg {
+    display: flex;
+    flex-direction: column;
+}
+
 .stratImg img {
     width: 90%;
+    text-align: center;
+    align-self: center;
 }
 
 .appDev {
@@ -377,7 +385,7 @@ header {
 
 .getStart p {
     color: white;
-    margin: 20px 0px;
+    margin: 30px 0px;
 }
 
 .getStart a {
@@ -388,8 +396,8 @@ header {
 .startBtn a {
     background-color: white;
     border-radius: 25px;
-    padding: 10px 20px;
-    color: black;
+    padding: 20px 80px;
+    color: #9692e6;
     text-decoration: none;
 }
 
@@ -401,6 +409,7 @@ header {
 
 footer {
     background-color: #333333;
+    padding: 40px 0px;
 }
 
 .container-footer {
@@ -411,8 +420,11 @@ footer {
 }
 
 footer p {
-    margin: 15px 0px;
     color: white;
     font-size: 13px;
     text-align: center;
+}
+
+footer p:first-child {
+    margin-bottom: 50px;
 }
