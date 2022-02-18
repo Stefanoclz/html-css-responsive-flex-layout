@@ -12,7 +12,7 @@ header {
     padding: 10px 0px;
 }
 
-.container {
+.containerHead {
     margin: auto;
     width: 80%;
     display: flex;
@@ -28,4 +28,139 @@ header {
 
 .menu .btn {
     display: none;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.demo {
+    background-color: #b9dbfe;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.demo h2 {
+    font-size: 25px;
+    margin: 20px 0px;
+    align-self: flex-start;
+    color: blue
+}
+
+.demo p, .clean p, .web p, .development p, .brand p {
+    line-height: 25px;
+}
+
+
+
+.demo a {
+    margin: 20px 0px;
+}
+
+.demo img {
+    width: 60%;
+    text-align: center;
+}
+
+.clean {
+    background-color: #caf0db;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.codeimg {
+    background-color: green;
+    padding: 20px;
+}
+
+.codeimg i, .devimg i {
+    font-size: 30px;
+}
+
+.clean h2 {
+    font-size: 25px;
+    margin: 20px 0px;
+    color: green
+}
+
+.web {
+    background-color: #fed2d1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.webimg, .brandimg {
+    padding: 20px;
+}
+
+.web i, .brandimg {
+    font-size: 80px;
+}
+
+.web h2 {
+    font-size: 25px;
+    margin: 20px 0px;
+    color: red
+}
+
+.development {
+    background-color: #ffe7c3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.devimg {
+    background-color: yellowgreen;
+    padding: 20px;
+}
+
+.development h2 {
+    font-size: 25px;
+    margin: 20px 0px;
+    color: yellowgreen;
+}
+
+.brand {
+    background-color: #d5d4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.brand h2 {
+    font-size: 25px;
+    margin: 20px 0px;
+    color: blue;
 }
