@@ -235,7 +235,7 @@ header {
 
 /* Inizio Terza presentazione  */
 
-.cit {
+.cit, .citTxt {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -243,15 +243,16 @@ header {
     text-align: center;
     margin-bottom: 20px;
     padding: 15px;
+    border-radius: 25px;
 }
 
 
-.cit h2 {
+.citTxt h2 {
     margin: 20px;
     color: blueviolet
 } 
 
-.cit p {
+.cit p, .citTxt p {
     line-height: 25px;
     margin-bottom: 10px;
 }
@@ -269,7 +270,7 @@ header {
 }
 
 .cit img {
-    width: 50%;
+    width: 150px;
     border-radius: 50%;
     margin-bottom: 20px;
 }
@@ -281,6 +282,11 @@ header {
     color: white;
     padding: 20px 0px;
     text-align: center;
+}
+
+.benefTitle {
+    margin: auto;
+    width: 80%;
 }
 
 .benefList {
@@ -296,6 +302,7 @@ header {
 .benefList h3 {
     margin: 10px 0px;
     color: blueviolet;
+    font-size: 35px;
 }
 
 .benefList p {
@@ -321,6 +328,7 @@ header {
 
 .aboutTxt {
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .about h1 {
@@ -340,10 +348,9 @@ header {
 }
 
 .about img {
-    width: 60%;
+    width: 200px;
     border-radius: 50%;
     margin-bottom: 10px;
-    align-self: center;
 }
 
 .aboutImg h2 {
@@ -357,6 +364,8 @@ header {
     background-color: #9692e6;
     padding: 5px 25px;
     align-self: flex-start;
+    margin-bottom: 50px;
+    border-radius: 5px;
 }
 
 /* Inizio Sesta parte call to action */
@@ -396,9 +405,11 @@ header {
 .startBtn a {
     background-color: white;
     border-radius: 25px;
-    padding: 20px 80px;
+    padding: 15px 80px;
     color: #9692e6;
     text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .getStart .container {
@@ -428,3 +439,170 @@ footer p {
 footer p:first-child {
     margin-bottom: 50px;
 }
+
+@media screen and (min-width: 820px) {
+    
+    header {
+        font-size: 25px;
+    }
+
+    .container {
+        margin: auto;
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 30px auto;
+        flex-wrap: wrap;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+
+    .clean, .web, .development, .brand {
+        width: calc(100% / 3 - 10px);
+        min-height: 400px;
+    }
+
+    .clean p, .web p, .development p, .brand p {
+        font-size: 15px;
+    }
+
+    .demo {
+        width: calc(100% / 3 * 2 - 10px);
+        height: 400px;
+    }
+
+    .demo img {
+        width: 200px;
+    }
+
+    .web h2, .brand h2 {
+        margin: 5px 0px;
+    }
+
+    .development {
+        padding-top: 40px;
+    }
+
+    .stratPlan h2 {
+        font-size: 60px;
+        margin-bottom: 15px;
+    }
+
+    .stratPlan p {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .cit {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 15px;
+        align-items: center;
+    }
+    
+    
+    .citTxt h2 {
+        margin: 30px;
+        color: blueviolet
+    } 
+    
+    .cit p, .citTxt p {
+        line-height: 25px;
+        margin-bottom: 10px;
+        font-size: 23px;
+        line-height: 30px;
+    }
+
+    .cit img {
+        width: 150px;
+        border-radius: 50%;
+        margin-right: 40px;
+    }
+
+    .benefits h1 {
+        font-size: 45px;
+        font-weight: 800;
+        margin-bottom: 30px;
+    }
+
+    .benefits .container {
+        column-gap: 20px;
+    }
+
+    .benefList {
+        width: calc(100% / 2 - 20px);
+    }
+
+    .benefList h3 {
+        margin: 20px 0px;
+    }
+    
+    .aboutTxt{
+        width: 50%
+    }
+
+    .aboutImg {
+        width: 30%;
+    }
+
+    .about .container {
+        justify-content: space-between;
+    }
+
+    .about h1 {
+        font-size: 60px;
+    }
+
+    .about p {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .aboutImg {
+        align-self: flex-start;
+    }
+
+    .aboutImg h2 {
+        font-size: 30px;
+    }
+
+    .getStart .container {
+        margin: auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0px;
+    }
+
+    .getStart h1 {
+        font-size: 100px;
+    }
+
+    .getStart h2 {
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    .getStart h3 {
+        font-size: 20px;
+        color: white;
+        font-weight: 100;
+    }
+
+    .getStart p {
+        font-size: 20px;
+    }
+
+    footer p {
+        font-size: 15px;
+    }
+
+    footer p:first-child {
+        margin-bottom: 80px;
+    }
+}
+
