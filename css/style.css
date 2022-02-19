@@ -704,3 +704,82 @@ footer p:first-child {
     .demoImg img {
         width: 100%;
     }
+
+    .plan {
+        padding: 80px 0px;
+    }
+
+    .plan .container {
+        display: flex;
+        flex-direction: row;
+        padding: 0px 80px;
+    }
+
+    .strategic {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: calc(100% / 2 - 20px);
+    }
+    
+    .plan h4 {
+        color: white;
+        margin: 10px;
+    }
+    
+    .stratPlan p {
+        margin: 20px 0px;
+        line-height: 25px;
+        font-size: 20px;
+    }
+
+    .stratPlan h2 {
+        font-size: 35px;
+        margin: 10px 0px;
+    }
+    
+    .stratImg {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+    
+    .stratImg img {
+        width: 100%;
+        text-align: center;
+        align-self: center;
+    }
+    
+    .appDev {
+        background-color: white;
+        padding: 30px;
+        text-align: center;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: calc(100% / 2 - 20px);
+        align-self: flex-end;
+    }
+    
+    .appDev img {
+        width: 60%;
+    }
+    
+    .appDev h3, .appDev p {
+        margin: 10px;
+    }
+    
+    .appDev i {
+        background-color: lightblue;
+        border-radius: 50%;
+        padding: 20px;
+        font-size: 20px;
+        margin: 10px 0px;
+    }
+
+    .citTxt {
+        padding: 0px 50px;
+    }
+    
