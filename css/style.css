@@ -359,6 +359,19 @@ header {
     flex-direction: column;
 }
 
+.foto {
+    position: relative;
+    max-width: 200px;
+}
+
+.foto > i {
+    position: absolute;
+    top: -10px;
+    right: 0;
+    color: #9692e6;
+    font-size: 80px;
+}
+
 .about img {
     width: 200px;
     border-radius: 50%;
@@ -417,7 +430,7 @@ header {
 .startBtn a {
     background-color: white;
     border-radius: 25px;
-    padding: 15px 80px;
+    padding: 15px 50px;
     color: #9692e6;
     text-decoration: none;
     font-size: 20px;
@@ -577,8 +590,9 @@ footer p:first-child {
     }
 
     .about .container {
-        justify-content: space-between;
+        justify-content: flex-start;
         margin-top: 50px;
+        column-gap: 90px;
     }
 
     .about h1 {
@@ -596,6 +610,19 @@ footer p:first-child {
 
     .aboutImg h2 {
         font-size: 30px;
+    }
+
+    .foto {
+        position: relative;
+        width: 220px;
+    }
+    
+    .foto > i {
+        position: absolute;
+        top: -10px;
+        right: 0;
+        color: #9692e6;
+        font-size: 80px;
     }
 
     .getStart .container {
@@ -868,12 +895,25 @@ footer p:first-child {
     .aboutImg a {
         font-size: 18px;
         font-weight: 700;
-        padding: 10px 80px;
+        padding: 10px 12%;
     }
 
     .about .container {
         justify-content: flex-start;
         column-gap: 30px;
+    }
+
+    .foto {
+        position: relative;
+        min-width: 280px;
+    }
+    
+    .foto > i {
+        position: absolute;
+        top: -10px;
+        right: 0;
+        color: #9692e6;
+        font-size: 100px;
     }
 
     .aboutTxt {
