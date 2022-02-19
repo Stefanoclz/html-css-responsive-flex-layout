@@ -49,6 +49,20 @@ header {
     margin-bottom: 20px;
 }
 
+.demoTxt a {
+    color: white;
+    background-color: #0084ff;
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 25px;
+    text-align: center;
+    
+}
+
+.demoImg {
+    margin-top: 20px;
+}
+
 .demo h2 {
     font-size: 25px;
     margin: 20px 0px;
@@ -60,15 +74,14 @@ header {
     line-height: 25px;
 }
 
-
-
-.demo a {
+.demo p {
     margin: 20px 0px;
 }
 
 .demo img {
     width: 60%;
     text-align: center;
+    border-radius: 20px;
 }
 
 .clean {
@@ -155,7 +168,6 @@ header {
     padding: 0px 20px;
     border-radius: 25px;
     margin-bottom: 10px;
-    padding: 20px;
     text-align: center;
 }
 
@@ -470,10 +482,16 @@ footer p:first-child {
     .demo {
         width: calc(100% / 3 * 2 - 10px);
         height: 400px;
+        align-items: flex-start;
     }
 
     .demo img {
         width: 200px;
+    }
+
+    .demoTxt a {
+        padding: 10px 60px;
+        
     }
 
     .web h2, .brand h2 {
@@ -606,3 +624,83 @@ footer p:first-child {
     }
 }
 
+@media screen and (min-width: 1200px) {
+    
+    .containerHead, .container, .container-footer {
+        width: 60%;
+    }
+
+    .logo {
+        font-size: 30px;
+    }
+
+    .menu i {
+        display: none;
+    }
+
+    .menu li {
+        display: inline-block;
+        font-size: 20px;
+        margin-right: 30px;
+        font-weight: 100;
+    }
+
+    .menu li a {
+        border: none;
+        text-decoration: none;
+        color: white;
+        background-color: transparent;
+        padding: 0;
+    }
+    
+    .menu {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu .btn {
+        display: inline-block;
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        background-color: white;
+        border-radius: 25px;
+        padding: 10px 15px;
+    }
+
+    .demo {
+        flex-direction: row;
+    }
+
+    .demoTxt {
+        width: 50%;
+    }
+
+    .demoTxt h2 {
+        font-size: 30px;
+    }
+
+    .demoTxt p {
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+
+    .demoTxt a {
+        font-size: 20px;
+        padding: 10px 50px;
+    }
+
+    .demoImg {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .demoImg img {
+        width: 100%;
+    }
