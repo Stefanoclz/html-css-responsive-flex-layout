@@ -311,7 +311,7 @@ header {
     padding: 30px 20px;
 }
 
-.benefList h3 {
+.benefList h3, .benefList h2 {
     margin: 10px 0px;
     color: blueviolet;
     font-size: 35px;
@@ -780,6 +780,50 @@ footer p:first-child {
     }
 
     .citTxt {
-        padding: 0px 50px;
+        padding: 0px 150px;
+    }
+
+    .citTxt h3 {
+        font-size: 25px;
+    }
+
+    .citTxt h2 {
+        font-size: 50px;
     }
     
+    .cit p {
+        padding: 0px 20px;
+        text-align: left;
+    }
+
+    .cit img {
+        padding: 0px 10px;
+    }
+
+    .benefTitle {
+        padding: 40px 0px;
+    }
+
+    .benefList {
+        width: calc(100% / 3 - 20px);
+        padding-bottom: 30px;
+    }
+
+    .benefList h2 {
+        font-size: 60px;
+    }
+
+    .benefList h3 {
+        font-size: 20px;
+    }
+
+    .benefList p {
+        font-size: 20px;
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+
+    .benefList a {
+        padding: 10px 30px;
+        font-size: 20px;
+    }
