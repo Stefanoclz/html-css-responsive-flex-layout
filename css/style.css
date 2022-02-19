@@ -452,6 +452,11 @@ footer p:first-child {
     margin-bottom: 50px;
 }
 
+.container-footer a {
+    text-decoration: underline;
+    color: lightblue;
+}
+
 @media screen and (min-width: 820px) {
     
     header {
@@ -564,10 +569,16 @@ footer p:first-child {
 
     .aboutImg {
         width: 30%;
+        padding-right: 10px;
+    }
+
+    .aboutImg img {
+        width: 210px;
     }
 
     .about .container {
         justify-content: space-between;
+        margin-top: 50px;
     }
 
     .about h1 {
@@ -628,6 +639,10 @@ footer p:first-child {
     
     .containerHead, .container, .container-footer {
         width: 60%;
+    }
+
+    header {
+        margin-bottom: 50px;
     }
 
     .logo {
@@ -779,6 +794,10 @@ footer p:first-child {
         margin: 10px 0px;
     }
 
+    .cit {
+        max-width: calc(100% - 160px);
+    }
+
     .citTxt {
         padding: 0px 150px;
     }
@@ -826,4 +845,53 @@ footer p:first-child {
     .benefList a {
         padding: 10px 30px;
         font-size: 20px;
+    }
+
+    .aboutTxt h1 {
+        font-size: 70px;
+    }
+
+    .aboutTxt p {
+        margin-bottom: 40px;
+        line-height: 45px;
+        font-size: 25px;
+    }
+
+    .aboutImg img {
+        width: 280px;
+    }
+
+    .aboutImg h2 {
+        font-size: 40px;
+    }
+
+    .aboutImg a {
+        font-size: 18px;
+        font-weight: 700;
+        padding: 10px 80px;
+    }
+
+    .about .container {
+        justify-content: flex-start;
+        column-gap: 30px;
+    }
+
+    .aboutTxt {
+        width: 60%;
+    }
+
+    .aboutImg {
+        width: 35%;
+    }
+
+    .getStart .container {
+        width: 30%;
+    }
+
+    .getStart h2 {
+        font-size: 50px;
+    }
+
+    footer p:first-child {
+        margin-bottom: 130px;
     }
